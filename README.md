@@ -1,7 +1,7 @@
 # default
 - This is test project.
 - Vuetify3 v-text-field input test.
-  - Up to 10 characters can be entered.
+  - Enter more than 10 characters in the text field.
   - More than 10 characters will be deleted (But not immidiately).
 
 **How to use**

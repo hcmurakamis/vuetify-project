@@ -7,11 +7,10 @@
 </template>
 
 <script setup lang="ts">
-import {ref, computed } from "vue";
-import {} from "vue"
+  import {ref, computed } from "vue";
+  import {} from "vue"
 
   const props = defineProps<{modelValue:string}>();
-
   const emits = defineEmits<{
     (e:"update:modelValue", text:string): void;
   }>();
@@ -26,11 +25,11 @@ const data = computed({
     }
 })
 
+// Delete more than 10 characters in a text field.
 const convert = (target:string) =>{
     if(target.length > 10){
         return target.substring(0,10)
     }
     return target;
 }
-
 </script>
